@@ -1,0 +1,29 @@
+body{font-family: 'Lato', sans-serif;}
+.full{ width: 100%; margin: 0; padding: 0; }
+.top-nav{ margin: 0; width: 100%; background: #fff; border: none; box-shadow: 0 0 5px rgba(57, 70, 78, 0.2); }
+.top-nav ul li.active a{ color: #333 !important; background: none !important;  box-shadow:0 7px 0px -4px #f4645f inset !important}
+.top-nav ul li a{ color: #aaa !important; }
+.top-nav ul li a:hover{ color: #333 !important; }
+.top-nav ul li a:focus{ outline: none; }
+header{ box-shadow: 0 0 10px #c8c8c8; }
+.left-data{ padding: 0; background: #fff; height:calc(100vh - 50px); border-right: 1px solid #c8c8c8; -moz-box-shadow: inset  0  8px 5px -8px #696868; -webkit-box-shadow: inset  0  8px 5px -8px #696868; box-shadow: inset  0  8px 5px -8px #696868;}
+.right-data{ margin: 0; padding: 0 15px; height:calc(100vh - 50px); background: #f5f3f3; -moz-box-shadow: inset  0  8px 5px -8px #696868; -webkit-box-shadow: inset  0  8px 5px -8px #696868; box-shadow: inset  0  8px 5px -8px #696868; }
+.left-data h2{ font-size: 16px; color: #333; font-weight: bold; }
+.form-control{ border-radius: 0; box-shadow: none; border: 1px solid #eaeaea; border-width:0 0 2px 0; }
+input.form-control{ height: 30px; padding: 0; }
+.form-control:focus{ border: 2px solid #f4645f; border-width:0 0 2px 0; box-shadow: none;}
+textarea.form-control{ resize: none; height: 60px; padding: 0; }
+#html_editor,#css_editor,#js_editor{ height: calc(100vh - 165px); font-size: 15px; }
+#result{ height:calc(100vh - 165px); border: 1px solid #c8c8c8; }
+.ace_gutter-cell.ace_error{ background: url('../images/problem.png') no-repeat 4px center !important; }
+.ace_gutter-cell.ace_warning{ background: url('../images/problem.png') no-repeat 4px center !important; }
+.result_frame{ height: calc(100vh - 165px); width: 100%; border:none; }
+#loader{ background: url('../images/load.gif'); width: 120px; height: 20px; position: absolute; top:0; top:45%; left: 45%;}
+#result_tb{ position: relative;}
+.nav-tabs li.active a{ border-width: 0px 0px 1px 0; color:#f4645f; border-color:#f4645f; background:#f5f3f3; border-radius:0px;}
+.nav-tabs li a{ color:#000;}
+.nav-tabs li a:hover,.nav-tabs li a:focus{ outline:none; color:#f4645f; border-width: 0px 0px 1px 0; border-color:#f4645f; background:#f5f3f3; border-radius:0px; }
+.nav-tabs li.active a:hover,.nav-tabs li.active a:focus{ outline:none; color:#f4645f; background:none; border-width: 0px 0px 1px 0px; border-color:#f4645f; }
+pre{ border:none;}
+.nav-tabs{ border:none;}
+.ace_editor{ border-radius:0px;}
