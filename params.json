@@ -1,0 +1,6 @@
+{
+  "name": "Crazy-code-like-js-fiddle",
+  "tagline": "You can add html,css and js code and get result in within micro second create file dymanically and get result.",
+  "body": "# html-css-js-code-like-jsfiddle\r\nYou can add html,css and js code and get result in within micro second create file dymanically and get result.\r\nsave your project in htdocs and save project name with crazy code\r\nor if you want to choose your name change site url in index.php file",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
